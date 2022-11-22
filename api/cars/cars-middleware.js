@@ -1,5 +1,6 @@
 const checkCarId = (req, res, next) => {
-  // DO YOUR MAGIC
+  const {vin, make, model, mileage} = req.body
+  if (vin === undefined || make === undefined || model )
 }
 
 const checkCarPayload = (req, res, next) => {
